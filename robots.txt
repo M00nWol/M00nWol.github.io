@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://M00nWol.github.io/sitemap.xml
+Sitemap: https://m00nwol.github.io/sitemap.xml
