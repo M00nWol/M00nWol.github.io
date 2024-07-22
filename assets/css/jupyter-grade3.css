@@ -1403,15 +1403,13 @@ div.modal .btn-group > .btn:first-child:hover {
   transition: 200ms ease;
 }
 
-div.modal > button,
-div.modal-footer > button {
+div.modal > button{
   background: #e4e4e4;
   background-color: #e4e4e4;
   border-color: #e4e4e4;
 }
 
-div.modal > button:hover,
-div.modal-footer > button:hover {
+div.modal > button:hover{
   background: #dfdfdf;
   background-color: #dfdfdf;
   border-color: #dfdfdf;
@@ -1452,13 +1450,6 @@ div.modal-footer > button:hover {
   background-color: #ffffff;
   position: relative;
   padding: 15px;
-}
-
-.modal-footer {
-  padding: 8px;
-  text-align: right;
-  background-color: #ffffff;
-  border-top: none;
 }
 
 .alert-info {
