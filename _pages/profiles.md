@@ -15,10 +15,6 @@ profiles:
     content: about_JK.md
     image_circular: false # crops the image to make it circular
     more_info: >
-      <p>Education</p>
-      <p>- 대학교</p>
-      <p>- 석사(Maybe in 스윗스,,,?)</p>
-      <p>- 박사</p>
   - align: left
     image: student_0.jpg
     name: Djebbi, Ella
