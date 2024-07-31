@@ -1,0 +1,49 @@
+---
+layout: default
+---
+<style>
+/* 헤더 영역 스타일 */
+.header-background {
+    width: 100vw; /* 전체 뷰포트 너비 */
+    height: 400px; /* 원하는 높이 설정 */
+    background-image: url('/assets/img/logo.png');
+    background-size: cover;
+    background-position: center center; /* 중앙 정렬 */
+    background-repeat: no-repeat; /* 반복 방지 */
+    position: absolute; /* 절대 위치 지정 */
+    top: 0; /* 페이지 상단에 위치 */
+    left: 0; /* 페이지 왼쪽에 위치 */
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0; /* 여백 제거 */
+    padding: 0; /* 패딩 제거 */
+}
+    
+/* 헤더 콘텐츠 스타일 */
+.header-content {
+    padding: 20px;
+    color: #fff; /* 글자 색상 흰색 */
+    font-weight: bold; /* 글씨 굵게 */
+    position: relative;
+    z-index: 1000; /* 헤더 배경 위에 위치하도록 설정 */
+    background: rgba(0, 0, 0, 0.5); /* 반투명 배경 */
+}
+</style>
+
+<div class="post">
+  <header class="header-background">
+    <div class="header-content">
+      <h1 class="post-title" style="margin: 0;">
+        {{ page.title }}
+      </h1>
+      <p class="desc">{{ page.subtitle }}</p>
+    </div>
+  </header>
+
+  <article>
+    <div class="container">{{ content }}</div>
+  </article>
+</div>
